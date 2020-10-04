@@ -1,0 +1,780 @@
+[
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:00Z",
+          "renderDuration": "10s",
+          "initiatingAction": "START",
+          "graphOffset": "0s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "0s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:00Z",
+          "renderDuration": "10s",
+          "graphOffset": "10s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "10s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "1"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:00Z",
+          "renderDuration": "10s",
+          "graphOffset": "20s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "20s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "2"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:01Z",
+          "renderDuration": "10s",
+          "graphOffset": "30s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "30s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "3"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:01Z",
+          "renderDuration": "10s",
+          "graphOffset": "40s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "40s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "4"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:01Z",
+          "renderDuration": "10s",
+          "graphOffset": "50s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "50s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "5"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:02Z",
+          "renderDuration": "10s",
+          "graphOffset": "60s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "60s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "6"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:02Z",
+          "renderDuration": "10s",
+          "graphOffset": "70s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "70s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "7"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:02Z",
+          "renderDuration": "10s",
+          "graphOffset": "80s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "80s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "8"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:03Z",
+          "renderDuration": "10s",
+          "graphOffset": "90s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "90s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "9"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:03Z",
+          "renderDuration": "10s",
+          "graphOffset": "100s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "100s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "10"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:03Z",
+          "renderDuration": "10s",
+          "graphOffset": "110s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "110s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "11"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:03Z",
+          "renderDuration": "10s",
+          "graphOffset": "120s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "120s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "12"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:04Z",
+          "renderDuration": "10s",
+          "graphOffset": "130s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "130s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "13"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:04Z",
+          "renderDuration": "10s",
+          "graphOffset": "140s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "140s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "14"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:04Z",
+          "renderDuration": "10s",
+          "graphOffset": "150s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "150s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "15"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:05Z",
+          "renderDuration": "10s",
+          "graphOffset": "160s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "160s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "16"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:05Z",
+          "renderDuration": "10s",
+          "graphOffset": "170s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "170s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "17"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:05Z",
+          "renderDuration": "10s",
+          "graphOffset": "180s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "180s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "18"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:06Z",
+          "renderDuration": "10s",
+          "graphOffset": "190s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "190s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "19"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:06Z",
+          "renderDuration": "10s",
+          "graphOffset": "200s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "200s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "20"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:06Z",
+          "renderDuration": "10s",
+          "graphOffset": "210s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "210s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "21"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:06Z",
+          "renderDuration": "10s",
+          "graphOffset": "220s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "220s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "22"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:07Z",
+          "renderDuration": "10s",
+          "graphOffset": "230s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "230s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "23"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:07Z",
+          "renderDuration": "10s",
+          "graphOffset": "240s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "240s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "24"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:07Z",
+          "renderDuration": "10s",
+          "graphOffset": "250s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "250s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "25"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:08Z",
+          "renderDuration": "10s",
+          "graphOffset": "260s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "260s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "26"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:08Z",
+          "renderDuration": "10s",
+          "graphOffset": "270s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "270s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "27"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:08Z",
+          "renderDuration": "10s",
+          "graphOffset": "280s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "280s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "28"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:09Z",
+          "renderDuration": "10s",
+          "graphOffset": "290s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "290s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "29"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:09Z",
+          "renderDuration": "10s",
+          "graphOffset": "300s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "300s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "30"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:09Z",
+          "renderDuration": "10s",
+          "graphOffset": "310s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "310s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "31"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:09Z",
+          "renderDuration": "10s",
+          "graphOffset": "320s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "320s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "32"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:10Z",
+          "renderDuration": "10s",
+          "graphOffset": "330s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "330s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "33"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:10Z",
+          "renderDuration": "10s",
+          "graphOffset": "340s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "340s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "34"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:10Z",
+          "renderDuration": "10s",
+          "graphOffset": "350s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "350s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "35"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+          "startTime": "2018-06-06T19:36:11Z",
+          "renderDuration": "7.305986394s",
+          "terminatingAction": "END",
+          "graphOffset": "360s",
+          "sourceUri": "spotify:track:6OGRM4MAOlyOdhHuX0OJ6P",
+          "sourceOffset": "360s",
+          "sourceDuration": "7.305986394s",
+          "scorePlaybackId": "200136c0-814e-478f-8c54-222de314c9ca",
+          "nodeId": "node-0",
+          "sequenceNumber": "36"
+        }
+      }
+    ]
+  }
+]

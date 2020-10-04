@@ -1,0 +1,187 @@
+{
+    "graph": {
+        "scripts": [],
+        "edges": [
+            {
+                "source": "c5ec8947-80cd-412a-9f35-19204e473650",
+                "id": "f8eecf06-9a6c-48e6-9de6-3c00149cfa01",
+                "target": "54f69922-cabe-42a0-b7a2-469d8904cc1d"
+            },
+            {
+                "source": "8696c957-af34-4bc7-a01e-7de49410167e",
+                "id": "ab560b77-d2d8-4ebb-a2b9-1224551b546b",
+                "target": "84ea0605-3bb9-4a2a-ba5b-c1ba00b3745b"
+            },
+            {
+                "source": "54f69922-cabe-42a0-b7a2-469d8904cc1d",
+                "id": "871db18c-bfdf-4862-9fb3-9296be7c61fd",
+                "target": "63a2e743-42ad-4802-a694-f519ee15bca5"
+            },
+            {
+                "source": "84ea0605-3bb9-4a2a-ba5b-c1ba00b3745b",
+                "id": "85773171-80c6-4744-84f1-8d8649d4b33b",
+                "target": "63a2e743-42ad-4802-a694-f519ee15bca5"
+            }
+        ],
+        "id": "317d4721-41ed-4666-91aa-fbdfd41d75ff",
+        "nodes": [
+            {
+                "params": {},
+                "config": {
+                    "frequency": 220.0,
+                    "when": 0.0,
+                    "duration": 6000000000.0
+                },
+                "kind": "com.nativeformat.plugin.wave.sine",
+                "id": "c5ec8947-80cd-412a-9f35-19204e473650",
+                "loading_policy": "none"
+            },
+            {
+                "params": {},
+                "config": {
+                    "frequency": 1760.0,
+                    "when": 0.0,
+                    "duration": 6000000000.0
+                },
+                "kind": "com.nativeformat.plugin.wave.sine",
+                "id": "8696c957-af34-4bc7-a01e-7de49410167e",
+                "loading_policy": "none"
+            },
+            {
+                "params": {
+                    "gain": [
+                        {
+                            "name": "setValueAtTime",
+                            "args": {
+                                "value": 0.05,
+                                "startTime": 0.0
+                            }
+                        },
+                        {
+                            "name": "linearRampToValueAtTime",
+                            "args": {
+                                "value": 0.05,
+                                "endTime": 3000000000.0
+                            }
+                        },
+                        {
+                            "name": "linearRampToValueAtTime",
+                            "args": {
+                                "value": 0.75,
+                                "endTime": 4000000000.0
+                            }
+                        },
+                        {
+                            "name": "linearRampToValueAtTime",
+                            "args": {
+                                "value": 0.05,
+                                "endTime": 5000000000.0
+                            }
+                        }
+                    ]
+                },
+                "config": {},
+                "kind": "com.nativeformat.plugin.waa.gain",
+                "id": "54f69922-cabe-42a0-b7a2-469d8904cc1d",
+                "loading_policy": "none"
+            },
+            {
+                "params": {
+                    "gain": [
+                        {
+                            "name": "setValueAtTime",
+                            "args": {
+                                "value": 0.05,
+                                "startTime": 0.0
+                            }
+                        },
+                        {
+                            "name": "linearRampToValueAtTime",
+                            "args": {
+                                "value": 0.05,
+                                "endTime": 1000000000.0
+                            }
+                        },
+                        {
+                            "name": "linearRampToValueAtTime",
+                            "args": {
+                                "value": 0.75,
+                                "endTime": 2000000000.0
+                            }
+                        },
+                        {
+                            "name": "linearRampToValueAtTime",
+                            "args": {
+                                "value": 0.05,
+                                "endTime": 3000000000.0
+                            }
+                        }
+                    ]
+                },
+                "config": {},
+                "kind": "com.nativeformat.plugin.waa.gain",
+                "id": "84ea0605-3bb9-4a2a-ba5b-c1ba00b3745b",
+                "loading_policy": "none"
+            },
+            {
+                "params": {
+                    "thresholdDb": [
+                        {
+                            "name": "setValueAtTime",
+                            "args": {
+                                "value": -12.0,
+                                "startTime": 0.0
+                            }
+                        }
+                    ],
+                    "kneeDb": [
+                        {
+                            "name": "setValueAtTime",
+                            "args": {
+                                "value": 20,
+                                "startTime": 0.0
+                            }
+                        }
+                    ],
+                    "ratioDb": [
+                        {
+                            "name": "setValueAtTime",
+                            "args": {
+                                "value": 3.0,
+                                "startTime": 0.0
+                            }
+                        }
+                    ],
+                    "attack": [
+                        {
+                            "name": "setValueAtTime",
+                            "args": {
+                                "value": 0.02,
+                                "startTime": 0.0
+                            }
+                        }
+                    ],
+                    "release": [
+                        {
+                            "name": "setValueAtTime",
+                            "args": {
+                                "value": 1.0,
+                                "startTime": 0.0
+                            }
+                        }
+                    ]
+                },
+                "config": {
+                    "detectionMode": "max",
+                    "kneeMode": "hard",
+                    "cutoffs": [1200.0]
+                },
+                "kind": "com.nativeformat.plugin.compressor.compressor",
+                "id": "63a2e743-42ad-4802-a694-f519ee15bca5",
+                "loading_policy": "none"
+            }
+        ],
+        "loading_policy": "none"
+    },
+    "version": "0.5.0"
+}

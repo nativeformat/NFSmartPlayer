@@ -1,0 +1,31 @@
+set(COMPRESSORPLUGIN_INCLUDE_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}")
+add_library(
+  CompressorPlugin
+  STATIC
+  CompressorPluginFactory.h
+  CompressorPluginFactory.cpp
+  CompressorPlugin.h
+  CompressorPlugin.cpp
+  ExpanderPlugin.h
+  ExpanderPlugin.cpp
+  Knee.h
+  Drc.h
+  PeakDetector.h
+  RmsDetector.h
+  Detector.h
+  CompanderPlugin.h
+  CompanderPlugin.cpp)
+target_include_directories(
+  CompressorPlugin
+  PUBLIC
+  ${PLUGIN_UTIL_INCLUDE_DIRECTORY}
+  ${NFSMARTPLAYER_INCLUDE_DIRS})
+target_link_libraries(
+  CompressorPlugin
+  PluginUtil
+  ${COMMON_PLUGIN_LIBS})
+target_compile_definitions(
+  CompressorPlugin
+  PUBLIC
+  -DNF_LOG_ERROR=1)
+add_subdirectory(tests)

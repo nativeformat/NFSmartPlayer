@@ -1,0 +1,24 @@
+set(EQPLUGIN_INCLUDE_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}")
+add_library(
+  EQPlugin
+  STATIC
+  EQPluginFactory.h
+  EQPluginFactory.cpp
+  EQPlugin.h
+  EQPlugin.cpp
+  FilterPlugin.h
+  FilterPlugin.cpp)
+target_include_directories(
+  EQPlugin
+  PUBLIC
+  ${NFSMARTPLAYER_INCLUDE_DIRS}
+  ${NFSMARTPLAYER_LIBRARIES_DIRECTORY}/PeqBank/include
+  ${PLUGIN_UTIL_INCLUDE_DIRECTORY}
+  PRIVATE
+  ${Boost_INCLUDE_DIR})
+target_link_libraries(EQPlugin
+  ${COMMON_PLUGIN_LIBS}
+  PluginUtil
+  ${Boost_LIBRARIES}
+  PeqBank)
+add_subdirectory(tests)

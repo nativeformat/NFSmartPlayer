@@ -1,0 +1,25 @@
+set(FILEPLUGIN_INCLUDE_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}")
+add_library(
+  FilePlugin
+  STATIC
+  FilePluginFactory.h
+  FilePluginFactory.cpp
+  FilePlugin.h
+  FilePlugin.cpp)
+target_link_libraries(
+  FilePlugin
+  NFHTTP
+  NFDecoder
+  ${COMMON_PLUGIN_LIBS})
+target_include_directories(
+  FilePlugin
+  PUBLIC
+  ${NFSMARTPLAYER_INCLUDE_DIRS}
+  ${NFSMARTPLAYER_OUTPUT_DIRECTORY}
+  ${Boost_INCLUDE_DIR}
+  ${NF_LOGGING_SCHEMA_SRC_DIR})
+target_compile_definitions(
+  FilePlugin
+  PUBLIC
+  -DNF_LOG_ERROR=1)
+add_subdirectory(tests)

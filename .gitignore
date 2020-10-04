@@ -1,0 +1,73 @@
+## Environment normalization:
+/.bundle
+/vendor/bundle
+
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+project.xcworkspace
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+.DS_Store
+.idea
+.vscode
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+
+# Carthage
+Carthage/Build
+
+# Ignore changes to our project.xcconfig that gets overridden by the build system
+project.xcconfig
+
+# Python
+*.egg*
+*.pyc
+smartplayer_env
+
+# SWIG generated
+interfaces/python/
+interfaces/csharp/
+
+# CI Artifacts
+/artifacts
+
+# Java Artifacts
+*.class
+interfaces/java/*.h
+
+# Directory for creating integration test packages
+test-creation
+
+# Boost
+libraries/boost*
+
+# Integration test output
+/input.wav
+/output.wav
+/output.flac
+/nfsmartplayer.wav
+
+# Android
+android-ndk-*

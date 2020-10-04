@@ -1,0 +1,200 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "loading_policy": "none",
+                "kind": "com.nativeformat.plugin.wave.sine",
+                "id": "37e715c2-2e32-460d-ba16-8551ef57bafb",
+                "config": {
+                    "frequency": 440.0,
+                    "when": 0.0,
+                    "duration": 5000000000.0
+                },
+                "params": {}
+            },
+            {
+                "loading_policy": "none",
+                "kind": "com.nativeformat.plugin.wave.sine",
+                "id": "sidechain",
+                "config": {
+                    "frequency": 350.0,
+                    "when": 0.0,
+                    "duration": 5000000000.0
+                },
+                "params": {}
+            },
+            {
+                "loading_policy": "none",
+                "kind": "com.nativeformat.plugin.waa.gain",
+                "id": "passthru",
+                "config": {},
+                "params": {
+                    "gain": [
+                        {
+                            "args": {
+                                "value": 0.5,
+                                "startTime": 0.0
+                            },
+                            "name": "setValueAtTime"
+                        }
+                    ]
+                }
+            },
+            {
+                "loading_policy": "none",
+                "kind": "com.nativeformat.plugin.waa.gain",
+                "id": "gaincomp",
+                "config": {},
+                "params": {
+                    "gain": [
+                        {
+                            "args": {
+                                "value": 0.5,
+                                "startTime": 0.0
+                            },
+                            "name": "setValueAtTime"
+                        }
+                    ]
+                }
+            },
+            {
+                "loading_policy": "none",
+                "kind": "com.nativeformat.plugin.waa.gain",
+                "id": "d0834294-7392-489f-8e41-99c8d315a323",
+                "config": {},
+                "params": {
+                    "gain": [
+                        {
+                            "args": {
+                                "value": 0.1,
+                                "startTime": 0.0
+                            },
+                            "name": "setValueAtTime"
+                        },
+                        {
+                            "args": {
+                                "value": 0.8,
+                                "startTime": 1000000000.0
+                            },
+                            "name": "setValueAtTime"
+                        },
+                        {
+                            "args": {
+                                "value": 0.1,
+                                "startTime": 2000000000.0
+                            },
+                            "name": "setValueAtTime"
+                        },
+                        {
+                            "args": {
+                                "value": 0.8,
+                                "startTime": 3000000000.0
+                            },
+                            "name": "setValueAtTime"
+                        },
+                        {
+                            "args": {
+                                "value": 0.1,
+                                "startTime": 4000000000.0
+                            },
+                            "name": "setValueAtTime"
+                        }
+                    ]
+                }
+            },
+            {
+                "loading_policy": "none",
+                "kind": "com.nativeformat.plugin.compressor.compressor",
+                "id": "f9a85690-1af0-489f-8cd6-42f8d24e41cf",
+                "config": {
+                    "detectionMode": "max",
+                    "kneeMode": "hard"
+                },
+                "params": {
+                    "thresholdDb": [
+                        {
+                            "args": {
+                                "value": -12.0,
+                                "startTime": 0.0
+                            },
+                            "name": "setValueAtTime"
+                        }
+                    ],
+                    "kneeDb": [
+                        {
+                            "args": {
+                                "value": 20,
+                                "startTime": 0.0
+                            },
+                            "name": "setValueAtTime"
+                        }
+                    ],
+                    "ratioDb": [
+                        {
+                            "args": {
+                                "value": 3.0,
+                                "startTime": 0.0
+                            },
+                            "name": "setValueAtTime"
+                        }
+                    ],
+                    "attack": [
+                        {
+                            "args": {
+                                "value": 0.2,
+                                "startTime": 0.0
+                            },
+                            "name": "setValueAtTime"
+                        },
+                        {
+                            "args": {
+                                "value": 0.1,
+                                "startTime": 3000000000.0
+                            },
+                            "name": "setValueAtTime"
+                        }
+                    ],
+                    "release": [
+                        {
+                            "args": {
+                                "value": 1.0,
+                                "startTime": 0.0
+                            },
+                            "name": "setValueAtTime"
+                        }
+                    ]
+                }
+            }
+        ],
+        "loading_policy": "none",
+        "id": "611892c1-8811-49fe-be06-d7782bbb7bcd",
+        "scripts": [],
+        "edges": [
+            {
+                "source": "sidechain",
+                "target": "d0834294-7392-489f-8e41-99c8d315a323",
+                "id": "this-is-made-up-1"
+            },
+            {
+                "source": "d0834294-7392-489f-8e41-99c8d315a323",
+                "target": "f9a85690-1af0-489f-8cd6-42f8d24e41cf",
+                "id": "foobar3",
+                "sourcePort": "audio",
+                "targetPort": "sidechain"
+            },
+            {
+                "source": "37e715c2-2e32-460d-ba16-8551ef57bafb",
+                "target": "f9a85690-1af0-489f-8cd6-42f8d24e41cf",
+                "id": "foobar4",
+                "sourcePort": "audio",
+                "targetPort": "audio"
+            },
+            {
+                "source": "f9a85690-1af0-489f-8cd6-42f8d24e41cf",
+                "target": "gaincomp",
+                "id": "foobar5"
+            }
+        ]
+    },
+    "version": "1.0.0"
+}

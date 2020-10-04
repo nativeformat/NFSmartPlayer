@@ -1,0 +1,26 @@
+{
+  "graph": {
+    "id": "com.nativeformat.graph:67352cd747ca928eccf57b5b29727068",
+    "loadingPolicy": "allContentPlaythrough",
+    "nodes": [
+      {
+        "id": "node-0",
+        "kind": "com.nativeformat.plugin.file.file",
+        "config": {
+          "file": "https://upload.wikimedia.org/wikipedia/en/4/45/ACDC_-_Back_In_Black-sample.ogg",
+          "when": 0,
+          "duration": 25000000000,
+          "offset": 0
+        },
+        "params": {},
+        "metadata": {
+          "editor.x": 65,
+          "editor.y": 104
+        },
+        "label": "Back in Black"
+      }
+    ],
+    "edges": []
+  },
+  "version": "0.2.0"
+}

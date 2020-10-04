@@ -1,0 +1,119 @@
+version: 2
+jobs:
+  buildlinuxclang:
+    docker:
+      - image: ubuntu:bionic
+    resource_class: large # prevent oom errors
+    steps:
+      - checkout
+      - run:
+          name: Build Linux with clang
+          command: sh ci/linux.sh clang_build
+      - store_artifacts:
+          path: build/output/libNFSmartPlayer.zip
+          destination: libNFSmartPlayer.zip
+      - store_artifacts:
+          path: build/output/cli/NFSmartPlayerCLI
+          destination: NFSmartPlayerCLI
+  # GCC complains about `error: use of deleted function` in Drc.h that is only a warning in clang.
+  # buildlinuxgcc:
+  #   docker:
+  #     - image: ubuntu:bionic
+  #   resource_class: large # prevent oom errors
+  #   steps:
+  #     - checkout
+  #     - run:
+  #         name: Build Linux with gcc
+  #         command: sh ci/linux.sh gcc_build
+  #     - store_artifacts:
+  #         path: build/output/libNFSmartPlayer.zip
+  #         destination: libNFSmartPlayer.zip
+  #     - store_artifacts:
+  #         path: build/output/cli/NFSmartPlayerCLI
+  #         destination: NFSmartPlayerCLI
+
+  # Something is still including -std=gnu++11, `error: function-like macro '__GNUC_PREREQ' is not defined`
+  # buildlinuxandroid:
+  #   docker:
+  #     - image: ubuntu:bionic
+  #   steps:
+  #     - checkout
+  #     - run:
+  #         name: Build Android
+  #         command: BUILD_ANDROID=1 sh ci/linux.sh build
+  #     - store_artifacts:
+  #         path: libNFSmartPlayer-androidx86.zip
+  #         destination: libNFSmartPlayer-androidx86.zip
+  #     - store_artifacts:
+  #         path: libNFSmartPlayer-androidArm64.zip
+  #         destination: libNFSmartPlayer-androidArm64.zip
+
+  buildmac:
+    macos:
+      xcode: "11.5.0"
+    environment:
+      HOMEBREW_NO_AUTO_UPDATE: 1
+    steps:
+      - checkout
+      - run: brew update
+      - run: git submodule sync
+      - run: git submodule update --init --recursive
+      - run:
+          name: Build OSX
+          command: sh ci/osx.sh build
+      - store_artifacts:
+          path: build/output/libNFSmartPlayer.zip
+          destination: libNFSmartPlayer.zip
+      - store_artifacts:
+          path: build/source/cli/Release/NFSmartPlayerCLI
+          destination: NFSmartPlayerCLI
+  buildmacios:
+    macos:
+      xcode: "11.5.0"
+    environment:
+      HOMEBREW_NO_AUTO_UPDATE: 1
+    steps:
+      - checkout
+      - run: brew update
+      - run: git submodule sync
+      - run: git submodule update --init --recursive
+      - run:
+          name: Build iOS
+          command: BUILD_IOS=1 sh ci/osx.sh build
+      - store_artifacts:
+          path: build/output/libNFSmartPlayer-iOS.zip
+          destination: libNFSmartPlayer-iOS.zip
+      - store_artifacts:
+          path: build/output/NFSmartPlayerObjC.framework.zip
+          destination: NFSmartPlayerObjC.framework.zip
+  buildmacandroid:
+    macos:
+      xcode: "11.5.0"
+    environment:
+      HOMEBREW_NO_AUTO_UPDATE: 1
+    steps:
+      - run: brew update
+      - checkout
+      - run: git submodule sync
+      - run: git submodule update --init --recursive
+      # Android NDK does not pass.
+      - run: sudo spctl --master-disable
+      - run:
+          name: Build Android
+          command: BUILD_ANDROID=1 USE_CURL=1 sh ci/osx.sh build
+      - store_artifacts:
+          path: libNFSmartPlayer-androidx86.zip
+          destination: libNFSmartPlayer-androidx86.zip
+      - store_artifacts:
+          path: libNFSmartPlayer-androidArm64.zip
+          destination: libNFSmartPlayer-androidArm64.zip
+workflows:
+  version: 2
+  build:
+    jobs:
+      - buildlinuxclang
+      # - buildlinuxgcc
+      # - buildlinuxandroid
+      - buildmac
+      - buildmacios
+      - buildmacandroid

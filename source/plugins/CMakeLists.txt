@@ -1,0 +1,10 @@
+set(COMMON_PLUGIN_LIBS NFGrapherParam nlohmann_json)
+
+add_subdirectory(util)
+add_subdirectory(waa)
+add_subdirectory(noise)
+add_subdirectory(wave)
+add_subdirectory(file)
+add_subdirectory(channel)
+add_subdirectory(compressor)
+add_subdirectory(eq)

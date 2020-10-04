@@ -1,0 +1,106 @@
+{
+    "graph": {
+        "edges": [
+            {
+                "id": "0ebb7f86-1c74-42a0-8440-7673324a335f",
+                "source": "4e79bb1c-15b3-4260-aa4d-a9f9d590b428",
+                "target": "ab4da7f3-63e3-4c35-88ba-33534c0a5664"
+            },
+            {
+                "id": "0275ded7-6d73-474d-8ef3-130b03b3d2c9",
+                "source": "3051adc9-e8fd-4512-beef-427df97f229c",
+                "target": "7a533da8-7259-41bb-a425-c6cbdd4fe06c"
+            },
+            {
+                "id": "6dd8fa9d-793e-465a-9129-106c7667be3b",
+                "source": "7a533da8-7259-41bb-a425-c6cbdd4fe06c",
+                "target": "ab4da7f3-63e3-4c35-88ba-33534c0a5664"
+            }
+        ],
+        "id": "58011376-1fee-45d2-b5a8-614c13741304",
+        "loading_policy": "none",
+        "nodes": [
+            {
+                "config": {
+                    "duration": 2000000000.0,
+                    "frequency": 220.0,
+                    "when": 0.0
+                },
+                "id": "4e79bb1c-15b3-4260-aa4d-a9f9d590b428",
+                "kind": "com.nativeformat.plugin.wave.sine",
+                "loading_policy": "none",
+                "params": {}
+            },
+            {
+                "config": {
+                    "duration": 2000000000.0,
+                    "frequency": 3520.0,
+                    "when": 0.0
+                },
+                "id": "3051adc9-e8fd-4512-beef-427df97f229c",
+                "kind": "com.nativeformat.plugin.wave.sine",
+                "loading_policy": "none",
+                "params": {}
+            },
+            {
+                "config": {},
+                "id": "ab4da7f3-63e3-4c35-88ba-33534c0a5664",
+                "kind": "com.nativeformat.plugin.eq.filter",
+                "loading_policy": "none",
+                "params": {
+                    "highCutoff": [
+                        {
+                            "args": {
+                                "startTime": 0.0,
+                                "value": 1000.0
+                            },
+                            "name": "setValueAtTime"
+                        },
+                        {
+                            "args": {
+                                "startTime": 1000000000.0,
+                                "value": 10000.0
+                            },
+                            "name": "setValueAtTime"
+                        }
+                    ],
+                    "lowCutoff": [
+                        {
+                            "args": {
+                                "startTime": 0.0,
+                                "value": 100.0
+                            },
+                            "name": "setValueAtTime"
+                        },
+                        {
+                            "args": {
+                                "startTime": 1000000000.0,
+                                "value": 1000.0
+                            },
+                            "name": "setValueAtTime"
+                        }
+                    ]
+                }
+            },
+            {
+                "config": {},
+                "id": "7a533da8-7259-41bb-a425-c6cbdd4fe06c",
+                "kind": "com.nativeformat.plugin.waa.gain",
+                "loading_policy": "none",
+                "params": {
+                    "gain": [
+                        {
+                            "args": {
+                                "startTime": 0.0,
+                                "value": 0.125
+                            },
+                            "name": "setValueAtTime"
+                        }
+                    ]
+                }
+            }
+        ],
+        "scripts": []
+    },
+    "version": "0.5.0"
+}

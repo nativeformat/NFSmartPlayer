@@ -1,0 +1,88 @@
+[
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "53cae33c-7e66-4bfd-ac05-217d38a9411c",
+          "startTime": "2018-06-06T20:19:30Z",
+          "renderDuration": "9.032562358s",
+          "initiatingAction": "START",
+          "graphOffset": "0s",
+          "sourceUri": "spotify:track:2Foc5Q5nqNiosCNqttzHof",
+          "sourceOffset": "124.252494331s",
+          "sourceDuration": "10.007800453s",
+          "scorePlaybackId": "d805237a-a059-47a7-b1b6-b95971b4d062",
+          "nodeId": "9b44bf65-ff02-484c-88d4-d71962527558"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "53cae33c-7e66-4bfd-ac05-217d38a9411c",
+          "startTime": "2018-06-06T20:19:30Z",
+          "renderDuration": "10.506598639s",
+          "initiatingAction": "START",
+          "graphOffset": "0.000430839s",
+          "sourceUri": "spotify:track:4FfjVUhlTPnH7lUt4bdvvG",
+          "sourceOffset": "71.237324263s",
+          "sourceDuration": "10.007800453s",
+          "scorePlaybackId": "d805237a-a059-47a7-b1b6-b95971b4d062",
+          "nodeId": "c59b2dc1-192d-4ae5-be23-d83a5be0e1c8"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "53cae33c-7e66-4bfd-ac05-217d38a9411c",
+          "startTime": "2018-06-06T20:19:30Z",
+          "renderDuration": "6.270317460s",
+          "terminatingAction": "END",
+          "graphOffset": "9.032562358s",
+          "sourceUri": "spotify:track:2Foc5Q5nqNiosCNqttzHof",
+          "sourceOffset": "134.260294784s",
+          "sourceDuration": "6.758594104s",
+          "scorePlaybackId": "d805237a-a059-47a7-b1b6-b95971b4d062",
+          "nodeId": "9b44bf65-ff02-484c-88d4-d71962527558",
+          "sequenceNumber": "1"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2365-bd8cb3e9"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "53cae33c-7e66-4bfd-ac05-217d38a9411c",
+          "startTime": "2018-06-06T20:19:30Z",
+          "renderDuration": "4.795850340s",
+          "terminatingAction": "END",
+          "graphOffset": "10.507029478s",
+          "sourceUri": "spotify:track:4FfjVUhlTPnH7lUt4bdvvG",
+          "sourceOffset": "81.245124716s",
+          "sourceDuration": "4.403945578s",
+          "scorePlaybackId": "d805237a-a059-47a7-b1b6-b95971b4d062",
+          "nodeId": "c59b2dc1-192d-4ae5-be23-d83a5be0e1c8",
+          "sequenceNumber": "1"
+        }
+      }
+    ]
+  }
+]

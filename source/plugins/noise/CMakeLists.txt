@@ -1,0 +1,20 @@
+set(NOISEPLUGIN_INCLUDE_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}")
+add_library(
+  NoisePlugin
+  STATIC
+  NoisePlugin.h
+  NoisePlugin.cpp
+  NoisePluginFactory.h
+  NoisePluginFactory.cpp
+  SilencePlugin.cpp
+  SilencePlugin.h)
+target_include_directories(
+  NoisePlugin
+  PUBLIC
+  ${NFSMARTPLAYER_INCLUDE_DIRS}
+  ${JSON_INCLUDE_DIR})
+target_link_libraries(
+  NoisePlugin
+  ${Boost_LIBRARIES}
+  ${COMMON_PLUGIN_LIBS})
+add_subdirectory(tests)

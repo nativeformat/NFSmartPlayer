@@ -1,0 +1,66 @@
+[
+  {
+    "clientInfo": {
+      "playerBuildId": "2244-43324281"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:cbacd565f61fbb024d8172002f2a3871",
+          "startTime": "2018-05-25T13:29:34Z",
+          "renderDuration": "10s",
+          "initiatingAction": "START",
+          "graphOffset": "18.599s",
+          "sourceUri": "spotify:track:54dG8htZf7qqSB6bf8RcPi",
+          "sourceOffset": "1.3s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "957ddbe1-d318-47b7-bfa9-094285496fe2",
+          "nodeId": "node-5"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2244-43324281"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:cbacd565f61fbb024d8172002f2a3871",
+          "startTime": "2018-05-25T13:29:36Z",
+          "renderDuration": "10s",
+          "graphOffset": "28.599s",
+          "sourceUri": "spotify:track:54dG8htZf7qqSB6bf8RcPi",
+          "sourceOffset": "11.299s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "957ddbe1-d318-47b7-bfa9-094285496fe2",
+          "nodeId": "node-5",
+          "sequenceNumber": "1"
+        }
+      }
+    ]
+  },
+  {
+    "clientInfo": {
+      "playerBuildId": "2244-43324281"
+    },
+    "message": [
+      {
+        "partialEndSample": {
+          "graphId": "com.nativeformat.graph:cbacd565f61fbb024d8172002f2a3871",
+          "startTime": "2018-05-25T13:29:37Z",
+          "renderDuration": "10s",
+          "terminatingAction": "END",
+          "graphOffset": "38.599s",
+          "sourceUri": "spotify:track:54dG8htZf7qqSB6bf8RcPi",
+          "sourceOffset": "21.299s",
+          "sourceDuration": "10s",
+          "scorePlaybackId": "957ddbe1-d318-47b7-bfa9-094285496fe2",
+          "nodeId": "node-5",
+          "sequenceNumber": "2"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "graph": {
+      "nodes": [
+          {
+              "loading_policy": "none",
+              "kind": "com.nativeformat.plugin.wave.sine",
+              "id": "37e715c2-2e32-460d-ba16-8551ef57bafb",
+              "config": {
+                  "frequency": 440.0,
+                  "when": 0.0,
+                  "duration": 5000000000.0
+              },
+              "params": {}
+          }
+      ],
+      "loading_policy": "none",
+      "id": "611892c1-8811-49fe-be06-d7782bbb7bcd",
+      "scripts": [{
+        "name": "test-script",
+        "code": "print('Hello from a script');\nprint(NF)"
+      }],
+      "edges": []
+  },
+  "version": "0.5.0"
+}

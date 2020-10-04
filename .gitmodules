@@ -1,0 +1,24 @@
+[submodule "libraries/NFDriver"]
+	path = libraries/NFDriver
+	url = https://github.com/spotify/NFDriver.git
+[submodule "libraries/NFDecoder"]
+	path = libraries/NFDecoder
+	url = https://github.com/spotify/NFDecoder.git
+[submodule "libraries/oscpack"]
+	path = libraries/oscpack
+	url = https://github.com/MariadeAnton/oscpack.git
+[submodule "libraries/duktape"]
+	path = libraries/duktape
+	url = https://github.com/svaarala/duktape-releases.git
+[submodule "tools/gyp"]
+	path = tools/gyp
+	url = https://chromium.googlesource.com/external/gyp
+[submodule "libraries/PeqBank"]
+	path = libraries/PeqBank
+	url = https://github.com/spotify/PeqBank.git
+[submodule "libraries/NFLogger"]
+	path = libraries/NFLogger
+	url = https://github.com/spotify/NFLogger.git
+[submodule "libraries/NFGrapher"]
+	path = libraries/NFGrapher
+	url = https://github.com/spotify/NFGrapher.git

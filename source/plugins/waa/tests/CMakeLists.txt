@@ -1,0 +1,12 @@
+add_executable(WAAPluginTests
+  WAAPluginTestRunner.cpp
+  DelayPluginTest.cpp
+  GainPluginTest.cpp)
+target_link_libraries(WAAPluginTests
+  WAAPlugin
+  NFSPLogger
+  ${Boost_LIBRARIES})
+target_include_directories(
+  WAAPluginTests
+  PUBLIC
+  "${WAAPLUGIN_INCLUDE_DIRECTORY}")

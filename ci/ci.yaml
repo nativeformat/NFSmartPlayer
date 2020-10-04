@@ -1,0 +1,59 @@
+integration_tests:
+  - render_time: 0.0
+    graph: resources/sine-bpf.json
+    audio: 253b8e6458fbe5a46ed18d114e6e1f60.flac
+    error: 0.01
+    time: 2
+  - render_time: 0.0
+    graph: resources/compress-sine.json
+    audio: 2a83716e9bfabca2e22c10bdc8f9780a.flac
+    error: 0.01
+    time: 6
+  - render_time: 0.0
+    graph: resources/compress-expand-sine.json
+    audio: 7ca6385ed2e09e89691d10cb683748dd.flac
+    error: 0.01
+    time: 6
+  - render_time: 0.0
+    graph: resources/compand-sine.json
+    audio: 8a30808c97573e87f4bccbafbc71a2cc.flac
+    error: 0.01
+    time: 6
+  - render_time: 0.0
+    graph: resources/compress-mb.json
+    audio: b458ac690dc515a160b9c24481cd592e.flac
+    error: 0.01
+    time: 8
+  - render_time: 0.0
+    graph: resources/ogg-graph.json
+    audio: a95d4efdea46762fa5fc525e9ee181f0.flac
+    error: 0.01
+    time: 25
+  - render_time: 0.0
+    graph: resources/sidechain-sine.json
+    audio: e8256968a885259b4516eef2e0b095b0.flac
+    error: 0.01
+    time: 5
+  - render_time: 0.0
+    graph: resources/sidechain-sine-delayed-sidechain.json
+    audio: 90e05f78e8ff35739443d0c926bde602.flac
+    error: 0.01
+    time: 5
+  - render_time: 0.0
+    graph: resources/scripting.json
+    audio: 2478c8c11b7a1eff5f401393a1a4bf5f.flac
+    error: 0.01
+    time: 5
+unit_tests:
+  - NFSmartPlayerTests
+  - NFSmartPlayerObjCTests
+  - ChannelPluginTests
+  - CompressorPluginTests
+  - EQPluginTests
+  - NoisePluginTests
+  - PluginUtilTests
+  - TimePluginTests
+  - WAAPluginTests
+  - WavePluginTests
+static_analyzer_exceptions:
+  - source/plugins/waa/AudioArray.h

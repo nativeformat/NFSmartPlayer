@@ -1,0 +1,161 @@
+{
+    "graph": {
+        "nodes": [
+            {
+                "loading_policy": "none",
+                "kind": "com.nativeformat.plugin.wave.sine",
+                "id": "37e715c2-2e32-460d-ba16-8551ef57bafb",
+                "config": {
+                    "frequency": 440.0,
+                    "when": 0.0,
+                    "duration": 5000000000.0
+                },
+                "params": {}
+            },
+            {
+                "loading_policy": "none",
+                "kind": "com.nativeformat.plugin.waa.gain",
+                "id": "d0834294-7392-489f-8e41-99c8d315a323",
+                "config": {},
+                "params": {
+                    "gain": [
+                        {
+                            "args": {
+                                "value": 0.1,
+                                "startTime": 0.0
+                            },
+                            "name": "setValueAtTime"
+                        },
+                        {
+                            "args": {
+                                "value": 0.8,
+                                "startTime": 1000000000.0
+                            },
+                            "name": "setValueAtTime"
+                        },
+                        {
+                            "args": {
+                                "value": 0.1,
+                                "startTime": 2000000000.0
+                            },
+                            "name": "setValueAtTime"
+                        },
+                        {
+                            "args": {
+                                "value": 0.8,
+                                "startTime": 3000000000.0
+                            },
+                            "name": "setValueAtTime"
+                        },
+                        {
+                            "args": {
+                                "value": 0.1,
+                                "startTime": 4000000000.0
+                            },
+                            "name": "setValueAtTime"
+                        }
+                    ]
+                }
+            },
+            {
+                "loading_policy": "none",
+                "kind": "com.nativeformat.plugin.compressor.compander",
+                "id": "f9a85690-1af0-489f-8cd6-42f8d24e41cf",
+                "config": {
+                    "detectionMode": "max",
+                    "kneeMode": "hard"
+                },
+                "params": {
+                    "compressorThresholdDb": [
+                        {
+                            "args": {
+                                "value": -15.0,
+                                "startTime": 0.0
+                            },
+                            "name": "setValueAtTime"
+                        }
+                    ],
+                    "compressorKneeDb": [
+                        {
+                            "args": {
+                                "value": 10,
+                                "startTime": 0.0
+                            },
+                            "name": "setValueAtTime"
+                        }
+                    ],
+                    "compressorRatioDb": [
+                        {
+                            "args": {
+                                "value": 3.0,
+                                "startTime": 0.0
+                            },
+                            "name": "setValueAtTime"
+                        }
+                    ],
+                    "expanderThresholdDb": [
+                        {
+                            "args": {
+                                "value": -23.0,
+                                "startTime": 0.0
+                            },
+                            "name": "setValueAtTime"
+                        }
+                    ],
+                    "expanderKneeDb": [
+                        {
+                            "args": {
+                                "value": 10,
+                                "startTime": 0.0
+                            },
+                            "name": "setValueAtTime"
+                        }
+                    ],
+                    "expanderRatioDb": [
+                        {
+                            "args": {
+                                "value": 20.0,
+                                "startTime": 0.0
+                            },
+                            "name": "setValueAtTime"
+                        }
+                    ],
+                    "attack": [
+                        {
+                            "args": {
+                                "value": 0.2,
+                                "startTime": 0.0
+                            },
+                            "name": "setValueAtTime"
+                        }
+                    ],
+                    "release": [
+                        {
+                            "args": {
+                                "value": 0.8,
+                                "startTime": 0.0
+                            },
+                            "name": "setValueAtTime"
+                        }
+                    ]
+                }
+            }
+        ],
+        "loading_policy": "none",
+        "id": "611892c1-8811-49fe-be06-d7782bbb7bcd",
+        "scripts": [],
+        "edges": [
+            {
+                "target": "d0834294-7392-489f-8e41-99c8d315a323",
+                "id": "2957b487-1eae-45af-9531-5017a6bcd982",
+                "source": "37e715c2-2e32-460d-ba16-8551ef57bafb"
+            },
+            {
+                "target": "f9a85690-1af0-489f-8cd6-42f8d24e41cf",
+                "id": "280c0173-7537-4335-b1f9-fa95df361727",
+                "source": "d0834294-7392-489f-8e41-99c8d315a323"
+            }
+        ]
+    },
+    "version": "0.5.0"
+}

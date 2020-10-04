@@ -1,0 +1,16 @@
+add_executable(NFSmartPlayerObjCTests
+  NFSmartPlayerObjCTestRunner.cpp
+  NFSmartPlayerGraphTest.mm
+  NFSmartPlayerObjCTest.mm
+  NFSmartPlayerObjCDelegateMock.h
+  NFSmartPlayerObjCDelegateMock.m
+  NFSmartPlayerGraphDelegateMock.h
+  NFSmartPlayerGraphDelegateMock.m)
+target_link_libraries(NFSmartPlayerObjCTests
+  NFSmartPlayerObjC
+  NFGrapher
+  ${Boost_LIBRARIES})
+target_include_directories(
+  NFSmartPlayerObjCTests
+  PUBLIC
+  "${NFSMARTPLAYEROBJC_INCLUDE_DIR}")
