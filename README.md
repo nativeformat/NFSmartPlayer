@@ -80,7 +80,7 @@ These dependencies will be included as submodules and compiled from source autom
 
 ## Installation :inbox_tray:
 
-`NFSmartPlayer` is a [Cmake](https://cmake.org/) project. While you are free to download the prebuilt static libraries it is recommended to use Cmake to install this project into your wider project. In order to add this into a wider Cmake project, simply add the following line to your `CMakeLists.txt` file:
+`NFSmartPlayer` is a [Cmake](https://cmake.org/) project. While you are free to download the prebuilt static libraries it is recommended to use Cmake to install this project into your wider project. In order to add this into a wider Cmake project, add the following line to your `CMakeLists.txt` file:
 
 ```
 add_subdirectory(NFSmartPlayer)
