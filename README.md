@@ -20,6 +20,8 @@ We dreamed of an audio engine that could multitrack, stream long audio, apply au
 
 We created a declarative format to describe the audio and effects over time, known as [NFGrapher](https://github.com/spotify/NFGrapher). This C++ smart player consumes JSON produced by NFGrapher, and outputs audio in either realtime to the audio driver or faster-than-realtime (offline to a file).
 
+Via [NFDecoder](https://github.com/spotify/NFDecoder) and [NFHTTP](https://github.com/spotify/NFHTTP), it can stream audio files from the file system, over HTTP(S), or through DASH (HLS) transmuxing.
+
 ## Architecture :triangular_ruler:
 
 The NFSmartPlayer has two roles:
