@@ -1,0 +1,38 @@
+{
+  "graph": {
+    "id": "8fd81747-ea13-47df-99c1-6efc49262b68",
+    "loadingPolicy": "allContentPlaythrough",
+    "nodes": [
+      {
+        "id": "751da8fc-36c6-4986-8efa-f44447392db4",
+        "kind": "com.nativeformat.plugin.file.file",
+        "config": {
+          "file": "https://upload.wikimedia.org/wikipedia/en/4/45/ACDC_-_Back_In_Black-sample.ogg",
+          "when": 0,
+          "duration": 25000000000,
+          "offset": 0
+        },
+        "params": {}
+      },
+      {
+        "id": "35ae64c7-0321-4d55-be3f-8f67a3929b54",
+        "kind": "com.nativeformat.plugin.time.loop",
+        "config": {
+          "when": 1978000000,
+          "duration": 5277000000,
+          "loopCount": 4
+        },
+        "params": {}
+      }
+    ],
+    "edges": [
+      {
+        "id": "0484c617-ed37-4db9-baa9-9500af7053da",
+        "source": "751da8fc-36c6-4986-8efa-f44447392db4",
+        "target": "35ae64c7-0321-4d55-be3f-8f67a3929b54"
+      }
+    ],
+    "scripts": []
+  },
+  "version": "1.2.24"
+}

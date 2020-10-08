@@ -21,7 +21,10 @@
 #include "TimePluginFactory.h"
 
 #include "LoopPlugin.h"
+
+#ifdef WITH_ELASTIQUE
 #include "StretchPlugin.h"
+#endif
 
 namespace nativeformat {
 namespace plugin {
@@ -41,14 +44,20 @@ std::shared_ptr<Plugin> TimePluginFactory::createPlugin(
     return std::make_shared<LoopPlugin>(loop_node, channels, samplerate,
                                         child_plugin);
   }
+
+#ifdef WITH_ELASTIQUE
   nfgrapher::contract::StretchNodeInfo stretch_node(grapher_node);
   return std::make_shared<StretchPlugin>(stretch_node, channels, samplerate,
                                          child_plugin);
+#endif
 }
 
 std::vector<std::string> TimePluginFactory::identifiers() const {
   return {nfgrapher::contract::LoopNodeInfo::kind(),
-          nfgrapher::contract::StretchNodeInfo::kind()};
+#ifdef WITH_ELASTIQUE
+          nfgrapher::contract::StretchNodeInfo::kind()
+#endif
+  };
 }
 
 }  // namespace time
