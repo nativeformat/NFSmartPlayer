@@ -83,6 +83,7 @@ set(NFSP_LIBS NFDriver
               ChannelPlugin
               CompressorPlugin
               EQPlugin
+              TimePlugin
               NFHTTP
               NFLogger
               NFGrapherParam

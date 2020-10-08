@@ -29,6 +29,7 @@
 #include "plugins/eq/EQPluginFactory.h"
 #include "plugins/file/FilePluginFactory.h"
 #include "plugins/noise/NoisePluginFactory.h"
+#include "plugins/time/TimePluginFactory.h"
 #include "plugins/waa/WAAPluginFactory.h"
 #include "plugins/wave/WavePluginFactory.h"
 
@@ -65,7 +66,8 @@ ClientImplementation::ClientImplementation(
                    std::make_shared<
                        plugin::compressor::CompressorPluginFactory>(),
                    std::make_shared<plugin::channel::PluginFactory>(),
-                   std::make_shared<plugin::eq::EQPluginFactory>()}),
+                   std::make_shared<plugin::eq::EQPluginFactory>(),
+                   std::make_shared<plugin::time::TimePluginFactory>()}),
               resolve_callback),
           error_callback, localhost_write_port, driver_type, output_destination,
           _io_service)),
