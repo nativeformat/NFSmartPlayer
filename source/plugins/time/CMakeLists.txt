@@ -12,7 +12,7 @@ set(TIME_LINK_LIBS
   NFDriver
   ${COMMON_PLUGIN_LIBS})
 
-if (WITH_ELASTIQUE)
+if(WITH_ELASTIQUE)
   set(TIME_SOURCE_FILES ${TIME_SOURCE_FILES} StretchPlugin.h StretchPlugin.cpp)
   set(TIME_LINK_LIBS
     ${TIME_LINK_LIBS}
@@ -28,7 +28,7 @@ target_include_directories(
   ${NFSMARTPLAYER_INCLUDE_DIRS}
 )
 
-if (WITH_ELASTIQUE)
+if(WITH_ELASTIQUE)
   target_include_directories(
     TimePlugin
     PRIVATE
