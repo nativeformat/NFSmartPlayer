@@ -4,7 +4,6 @@
 [![CircleCI](https://circleci.com/gh/spotify/NFSmartPlayer.svg?style=svg)](https://circleci.com/gh/spotify/NFSmartPlayer)
 
 [![License](https://img.shields.io/github/license/spotify/NFSmartPlayer.svg)](LICENSE)
-[![Spotify FOSS Slack](https://slackin.spotify.com/badge.svg)](https://slackin.spotify.com)
 [![Readme Score](http://readme-score-api.herokuapp.com/score.svg?url=https://github.com/spotify/NFSmartPlayer)](http://clayallsopp.github.io/readme-score?url=https://github.com/spotify/NFSmartPlayer)
 
 A cross platform streaming audio engine with a declarative format.
@@ -13,6 +12,8 @@ A cross platform streaming audio engine with a declarative format.
 - [x] 💻 [OS X](https://www.apple.com/macos/) 10.11+
 - [x] 🐧 [Ubuntu](https://www.ubuntu.com/) Bionic 18.04+
 - [x] 🤖 [Android](https://developer.android.com/studio/) SDK r17+
+
+Developed at Spotify 2019-2022, Discontinued and handed over to new maintainers January 2023
 
 ## Raison D'être :thought_balloon:
 
